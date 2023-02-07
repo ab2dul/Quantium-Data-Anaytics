@@ -1,6 +1,7 @@
 # Quantium-Data-Anaytics
-his is program consists of 3 tasks
+This program consists of 3 tasks.
 All these code files were my personal submissions for this program. Except the data files which were assigned by Quantium.
+
 Task 1 - Data preparation and Customer Analytics
 Conduct analysis on your client's transaction dataset and identify customer purchasing behaviours to generate insights and provide commercial recommendations.
 
@@ -12,6 +13,7 @@ Examine transaction data - check for missing data, anomalies, outliers and clean
 Examine customer data - similar to above transaction data
 Data analysis and customer segments - create charts and graphs, note trends and insights
 Deep dive into customer segments - determine which segments should be targetted
+
 Data Cleaning:
 Date column was in integer format. So the date column was changed to date time format.
 There are 365 days in a year but in the DATE column there are only 364 unique values so one was missing. As it was a Christmas day and store was closed there was no anomaly. Value was kept as zero transaction for "TOT_SALES". December sales
@@ -44,6 +46,7 @@ The Mainstream category of the "Young and Midage Singles/Couples" have the highe
 Chips brand Kettle is dominating every segment as the most purchased brand.
 Observing the 2nd most purchased brand, "Young and Midage Singles/Couples" is the only segment with a different preference (Doritos) as compared to others' (Smiths).
 Most frequent chip size purchased is 175gr followed by the 150gr chip size for all segments.
+
 Views and Recommendations
 Older Families: Focus on the Budget segment. Strength: Frequent purchase. We can give promotions that encourages more frequency of purchase. Strength: High quantity of chips purchased per visit. We can give promotions that encourage them to buy more quantity of chips per purchase.
 Young Singles/Couples: Focus on the Mainstream segment. This segment is the only segment that had Doritos as their 2nd most purchased brand (after Kettle). To specifically target this segment it might be a good idea to collaborate with Doritos merchant to do some branding promotion catered to "Young Singles/Couples - Mainstream" segment. Strength: Population quantity. We can spend more effort on making sure our promotions reach them, and it reaches them frequently.
@@ -74,6 +77,7 @@ Average transactions per customer
 Average chips per customer
 Average price per unit
 Check significance of Trial minus Control stores TOT_SALES Percentage Difference Pre-Trial vs Trial.
+
 Step 1: Check null hypothesis of 0 difference between control store's Pre-Trial and Trial period performance.
 
 Step 2: Proof control and trial stores are similar statistically
@@ -126,6 +130,7 @@ With our project coming to an end its time for us to send a report to Julia, bas
 As best practice at Quantium, we like to use the “Pyramid Principles” framework when putting together a report for our clients. If you are not already familiar with this framework you can find quick introductions on by searching form them on the internet.
 For this report, we need to include data visualisations, key callouts, insights as well as recommendations and/or next steps.
 We recommend you use a tool like PowerPoint (or similar) to create your report.
+
 Main goals of the task are:
 Data literacy level of your audience
 Table of contents / agenda
